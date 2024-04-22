@@ -1,0 +1,114 @@
+.saveButton {
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    color: #000;
+}
+
+.rangeContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.colorName {
+    text-align: center;
+    font-size: 30px;
+    color:white;
+}
+
+.whiteText{
+    text-align: center;
+    color:white;
+    margin: auto;
+}
+
+body{
+    background: rgb(54, 69, 79);
+}
+
+.selectedColor {
+    height: 300px;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:white;
+    border-radius: 150px;
+    outline: 5px solid black;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: auto;
+}
+
+.container .colorForSelect{
+    list-style: none;
+    margin: 13px;
+    padding: 7px;
+    background-color : black;
+    padding: 10px;
+    margin: auto;
+}
+
+.colorForSelect .rect-box-red{
+    width: 50px;
+    height: 50px;
+    background: red;
+    border-radius: 2px;
+}
+
+.colorForSelect .rect-box-blue{
+    width: 50px;
+    height: 50px;
+    background: blue;
+    border-radius: 2px;
+}
+
+
+.colorForSelect .rect-box-white{
+    width: 50px;
+    height: 50px;
+    background: white;
+    border-radius: 2px;
+}
+
+
+.colorForSelect .rect-box-black{
+    width: 50px;
+    height: 50px;
+    background: black;
+    border-radius: 2px;
+}
+
+.colorForSelect .rect-box-green{
+    width: 50px;
+    height: 50px;
+    background: green;
+    border-radius: 2px;
+}
+
+.colorForSelect .rect-box-yellow{
+    width: 50px;
+    height: 50px;
+    background: yellow;
+    border-radius: 2px;
+}
+
+.colorForSelect .rect-box-litegreen{
+    width: 50px;
+    height: 50px;
+    background: limegreen;
+    border-radius: 2px;
+}
+
+.colorForSelect .rect-box-purple{
+    width: 50px;
+    height: 50px;
+    background: purple;
+    border-radius: 2px;
+}

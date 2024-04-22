@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "style.css">
+    <title> Color Palette Explorer</title>
+</head>
+<body>
+    <h1 class="whiteText">Your color <span id="colorOutput"></span></h1>
+    
+    <br>
+    <br>
+
+    <div class="rangeContainer"> 
+        <label class="colorName"> Red</label>
+        <input type="range" id="rangeRed" class="'slider" value="=0" min="0" max="255">
+        <br>
+
+        <label class="colorName"> Green </label>
+        <input type="range" id="rangeGreen" class="'slider" value="=0" min="0" max="255">
+        <br>
+
+        <label class="colorName"> Blue </label>
+        <input type="range" id="rangeBlue" class="slider" value="=0" min="0" max="255">
+        <br>
+
+        <label class="colorName"> hue </label>
+        <input type="range" id="hue" class="'slider" value="=0" min="0" max="100">
+        <br>
+
+        <label class="colorName"> saturation </label>
+        <input type="range" id="saturation" class="'slider" value="=0" min="0" max="100">
+        <br>
+
+        <label class="colorName"> lightness </label>
+        <input type="range" id="lightness" class="'slider" value="=0" min="0" max="100">
+        <br>
+    </div>
+    <br>
+    <button class="saveButton"> Save </button>
+
+    <div class="selectedColor">
+    </div>
+
+    <ul class="container">
+        <li class="colorForSelect">
+            <div class="rect-box-red"></div>
+        </li>
+        <li class="colorForSelect">
+            <div class="rect-box-blue"></div>
+        </li>
+        <li class="colorForSelect">
+            <div class="rect-box-white"></div>
+        </li>
+        <li class="colorForSelect">
+            <div class="rect-box-black"></div>
+        </li>
+        <li class="colorForSelect">
+            <div class="rect-box-green"></div>
+        </li>
+        <li class="colorForSelect">
+            <div class="rect-box-yellow"></div>
+        </li>
+        <li class="colorForSelect">
+            <div class="rect-box-litegreen"></div>
+        </li>
+        <li class="colorForSelect">
+            <div class="rect-box-purple"></div>
+        </li>
+    </ul>
+
+    <h2 class="whiteText"> User colors</h2>
+    <br>
+    <ul id="user-colors" class="container">
+ 
+    </ul>
+
+
+
+    <script src = "script.js"></script>
+</body>
+</html>
